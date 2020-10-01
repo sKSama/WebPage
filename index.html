@@ -25,7 +25,7 @@
         }
       h1 {
         font-style: bold;
-        color: red;
+        color: black;
         text-align: center;  
         }
     </style>
@@ -37,12 +37,13 @@
     <p>Take a look!.</p>
 <!-- This is the model veiwer element, inside of which I place the path to the model and the command to auto rotate.-->
     <model-viewer src="Hackclub.gltf" 
-
-
+                  alt = "A 3D model."
                   >
     <p>Example model</p>
 
     </model-viewer>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
     
 
     
