@@ -108,7 +108,7 @@
         {
             "mimeType" : "image/png",
             "name" : "SVGMat Base Color",
-            "uri" : "SVGMat%20Base%20Color.png"
+            "uri" : "Material_Base_Color.png"
         }
     ],
     "accessors" : [
